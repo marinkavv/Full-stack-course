@@ -1,16 +1,8 @@
-img {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
-}
-
-p {
-  /* text-decoration: underline dashed red; */
-  /* text-decoration: overline dashed red; */
-  text-decoration: line-through wavy red 1px;
-}
-
-a {
-  color: seagreen;
-  text-decoration: none;
+body {
+  /* background-color: burlywood; */
+  background: url(https://i.pinimg.com/1200x/45/07/c5/4507c57013d379d050550dcb77e752c1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  background-position: right;
 }
