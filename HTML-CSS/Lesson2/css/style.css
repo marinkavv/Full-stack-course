@@ -1,43 +1,16 @@
-/* h2 {
-  color: green;
-
-  text-align: center;
-}
-
-h1 {
-  color: blue;
-  font-size: 20px;
-  text-align: center;
-}
-
-p {
-  color: rgb(174, 118, 219);
-  font-size: 14px;
-  text-align: right;
-}
-#topNews {
-  color: red;
-}
-
-.abstract {
-  color: gray;
-}
-
-.link {
-  font-size: 10px;
-} */
-
 img {
   width: 150px;
   height: 100px;
   object-fit: cover;
 }
 
-body {
-  color: red; /*Inherited property*/
-  border: 2px solid black; /*Non-inherited property*/
+p {
+  /* text-decoration: underline dashed red; */
+  /* text-decoration: overline dashed red; */
+  text-decoration: line-through wavy red 1px;
 }
 
 a {
-  color: inherit;
+  color: seagreen;
+  text-decoration: none;
 }
