@@ -1,4 +1,4 @@
-h2 {
+/* h2 {
   color: green;
 
   text-align: center;
@@ -15,13 +15,6 @@ p {
   font-size: 14px;
   text-align: right;
 }
-
-img {
-  width: 150px;
-  height: 100px;
-  object-fit: cover;
-}
-
 #topNews {
   color: red;
 }
@@ -32,4 +25,15 @@ img {
 
 .link {
   font-size: 10px;
+} */
+
+img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+
+body {
+  color: red; /*Inherited property*/
+  border: 2px solid black; /*Non-inherited property*/
 }
