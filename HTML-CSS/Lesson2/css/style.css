@@ -21,3 +21,15 @@ img {
   height: 100px;
   object-fit: cover;
 }
+
+#topNews {
+  color: red;
+}
+
+.abstract {
+  color: gray;
+}
+
+.link {
+  font-size: 10px;
+}
