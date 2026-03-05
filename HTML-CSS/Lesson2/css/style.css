@@ -1,8 +1,37 @@
 body {
   /* background-color: burlywood; */
-  background: url(https://i.pinimg.com/1200x/45/07/c5/4507c57013d379d050550dcb77e752c1.jpg);
+  background: url(https://i.pinimg.com/1200x/45/0d/1e/450d1e940508843c3729c8c0ac4b9321.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-position: center; */
   background-position: right;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navLists {
+  padding: 0;
+  text-align: center;
+}
+
+.navList {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: rosybrown;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.navList a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.newsItem {
+  display: inline-block;
+  width: calc(50% - 4px);
 }
